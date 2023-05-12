@@ -19,9 +19,11 @@ function logPessoaTS(pessoa: Pessoa): void {
 let pessoaTS1: Pessoa = { name: 'Uélio Nobre', country: 'Brazil' }
 let pessoaTS2: Pessoa = { name: 'Uélio Nobre', country: 'Brazil', age: 35 };
 
-// Só imprime pessoas, Djow!
-let naoEhUmaPessoaTS = { title: 'Hello Word JS', descricao: 'O erro aconteceu tarde demais!' };
 
 logPessoaTS(pessoaTS1);
 logPessoaTS(pessoaTS2);
-logPessoaTS(naoEhUmaPessoaTS);
+
+// Só imprime pessoas, ;)
+// Comentra as linhas abaixo para transpilar
+// let naoEhUmaPessoaTS = { title: 'Hello Word JS', descricao: 'O erro aconteceu tarde demais!' };
+// logPessoaTS(naoEhUmaPessoaTS);
